@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const RECIPE_API_BASE_URL = "http://localhost:8080/api/recipes";
+const RECIPE_API_BASE_URL = "https://cors-anywhere.herokuapp.com/http://cookbook.junhui.dev:8080/api/recipes";
 
 class RecipeService {
 
